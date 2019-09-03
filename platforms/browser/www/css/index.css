@@ -1,0 +1,147 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+ html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   line-height: 1.4;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #e3e3e3;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    overflow-y: auto;
+  }
+  
+  .app-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 80px;
+    opacity: 0.5;
+  }
+  
+  svg {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .todo-item {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+  }
+  
+  .done span {
+    text-decoration: line-through;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .tick {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 !important;
+  }
+  
+  .todo-item.done .tick {
+    background: green;
+  }
+  .todo-item.done span {
+    text-decoration: line-through;
+  }
+  
+  .delete-todo {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .delete-todo svg {
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+  }
+  
+  .js-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .todo-input-container
+  {
+    flex: 2;
+  }
+
+  .todo-btn-container
+  {
+    flex: 1;
+    padding-left: 8px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 3px solid #333;
+  }
+
+  .add-todo-btn
+  {
+      width: 30px;
+  }

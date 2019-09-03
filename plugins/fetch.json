@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-todo-management": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/Shaharking/cordova-plugin-todo-management.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "org.apache.cordova.todo": {
+    "source": {
+      "type": "local",
+      "path": "Z:\\Development\\TodoRevamp\\TodoManagment\\node_modules\\cordova-plugin-todo-management"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

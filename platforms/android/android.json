@@ -1,0 +1,39 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"TodoManagement\"><param name=\"android-package\" value=\"org.apache.cordova.todo.TodoManagement\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-todo-management": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-todo-management.TodoManagement",
+      "file": "plugins/cordova-plugin-todo-management/www/TodoManagement.js",
+      "pluginId": "cordova-plugin-todo-management",
+      "clobbers": [
+        "cordova.plugins.TodoManagement"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-todo-management": "0.1.0"
+  }
+}

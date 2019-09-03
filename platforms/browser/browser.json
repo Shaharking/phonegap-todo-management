@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-todo-management": {
+      "PACKAGE_NAME": "com.phonegap.helloworld"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-todo-management/www/TodoManagement.js",
+      "id": "cordova-plugin-todo-management.TodoManagement",
+      "pluginId": "cordova-plugin-todo-management",
+      "clobbers": [
+        "cordova.plugins.TodoManagement"
+      ]
+    },
+    {
+      "file": "plugins/cordova-plugin-todo-management/src/browser/TodoManagementProxy.js",
+      "id": "cordova-plugin-todo-management.TodoManagementProxy",
+      "pluginId": "cordova-plugin-todo-management",
+      "runs": true
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-todo-management": "0.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "_from": "git+https://github.com/Shaharking/cordova-plugin-todo-management.git",
+  "_id": "cordova-plugin-todo-management@0.1.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-todo-management",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/Shaharking/cordova-plugin-todo-management.git",
+    "rawSpec": "https://github.com/Shaharking/cordova-plugin-todo-management.git",
+    "saveSpec": "git+https://github.com/Shaharking/cordova-plugin-todo-management.git",
+    "fetchSpec": "https://github.com/Shaharking/cordova-plugin-todo-management.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/Shaharking/cordova-plugin-todo-management.git#abbfa5ff8a6d270eb48662f2a6855db794e1f050",
+  "_spec": "https://github.com/Shaharking/cordova-plugin-todo-management.git",
+  "_where": "Z:\\Development\\TodoRevamp\\TodoManagment",
+  "author": {
+    "name": "Shahar"
+  },
+  "bugs": {
+    "url": "https://github.com/Shaharking/cordova-plugin-todo-management/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-todo-management",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/Shaharking/cordova-plugin-todo-management#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "cordova-plugin-todo-management",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaharking/cordova-plugin-todo-management.git"
+  },
+  "version": "0.1.0"
+}
