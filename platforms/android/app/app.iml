@@ -91,5 +91,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: __local_aars__:Z.\Development\TodoRevamp\TodoManagment\platforms\android\app\libs\gson-2.8.2.jar:unspecified@jar" level="project" />
     <orderEntry type="module" module-name="CordovaLib" />
+    <orderEntry type="module" module-name="CordovaLib" />
+    <orderEntry type="module" module-name="CordovaLib" />
   </component>
 </module>
